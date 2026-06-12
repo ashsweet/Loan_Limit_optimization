@@ -159,4 +159,4 @@ All outputs are saved to the `output/` directory:
 
 ## Author
 
-Data Science Assessment - Loan Limit Optimization Analysis
+Aishwarya Mukherjee
