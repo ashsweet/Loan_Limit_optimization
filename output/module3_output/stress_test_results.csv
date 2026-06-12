@@ -1,0 +1,7 @@
+scenario,description,inflation,unemployment,interest_rate,expected_demand,expected_profit,annual_profit,profit_change_pct
+Baseline,Normal conditions (19% rate from problem statement),5.0,7.000000000000001,19.0,15516.9,296615.47607264837,3559385.7128717806,0.0
+High Inflation,"Inflation spike to 10%, rates rise to 24%",10.0,8.0,24.0,15884.209056786995,304099.9989468759,3649199.987362511,2.5
+Recession,"Economic downturn, high unemployment, lower rates",2.0,14.000000000000002,15.0,14614.90889119861,278330.88351342146,3339970.6021610573,-6.2
+Stagflation,Worst case: high inflation + high unemployment,9.0,12.0,22.0,15455.304217000139,295362.55610259424,3544350.673231131,-0.4
+Economic Boom,"Strong growth, low unemployment",6.0,4.0,21.0,15853.75566923466,303478.60841418256,3641743.3009701907,2.3
+Credit Crunch,"Tight credit, very high interest rates",4.0,9.0,26.0,14990.286562884097,285923.9384919108,3431087.2619029297,-3.6
