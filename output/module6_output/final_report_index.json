@@ -1,0 +1,70 @@
+{
+  "report_metadata": {
+    "title": "Loan Limit Optimization - Final Report",
+    "date": "2026-06-13",
+    "version": "1.0",
+    "author": "Analytics Team"
+  },
+  "executive_summary": {
+    "report_date": "2026-06-13",
+    "report_title": "Loan Limit Optimization Analysis",
+    "analysis_period": "12 months",
+    "portfolio": {
+      "total_customers": 30000,
+      "risk_tiers": 4,
+      "analysis_basis": "Historical customer behavior data"
+    },
+    "risk": {
+      "steady_state_default_rate": 0.04045480882023132,
+      "model_type": "Markov Chain (4 risk states)",
+      "monthly_default_probs": [
+        0.023664371517643282,
+        0.03395923855410311,
+        0.045965378049896054,
+        0.056458917063763214
+      ]
+    },
+    "demand": {
+      "monthly_avg": 15000,
+      "monthly_min": 13200.0,
+      "monthly_max": 17250.0,
+      "annual_total": 180000
+    },
+    "simulation": {
+      "mean_npv": 5782382.844000391,
+      "std_npv": 19606.434463025784,
+      "var_95": 5748607.524054976,
+      "default_rate": 0.38487699999999997,
+      "num_simulations": 100
+    },
+    "optimization": {
+      "optimal_allocation": {
+        "Low Risk": 0.4,
+        "Medium-Low Risk": 0.4,
+        "Medium-High Risk": 0.1,
+        "High Risk": 0.1
+      },
+      "expected_npv": 5558354.368852648,
+      "converged": true,
+      "npv_improvement": 172364.15230349824,
+      "improvement_pct": 3.200231440708659,
+      "weighted_default_rate": 0.39950248248077386
+    }
+  },
+  "key_findings": {
+    "npv_improvement": "$172,364",
+    "improvement_percentage": "3.2%",
+    "optimal_strategy": "Risk-adjusted allocation with Low Risk tier prioritization",
+    "implementation_timeline": "12 months (4 phases)"
+  },
+  "recommendations_count": 5,
+  "high_priority_recommendations": 2,
+  "deliverables": [
+    "executive_summary.json",
+    "executive_dashboard.png",
+    "recommendations.json",
+    "implementation_roadmap.csv",
+    "risk_assessment.csv",
+    "model_assumptions.csv"
+  ]
+}

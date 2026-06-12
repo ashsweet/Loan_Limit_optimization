@@ -1,0 +1,7 @@
+Risk_Category,Risk_Description,Likelihood,Impact,Mitigation,Owner
+Model Risk,Model assumptions may not hold in changing economic conditions,Medium,High,"Quarterly model validation, stress testing, dynamic recalibration",Risk Management
+Execution Risk,Implementation delays or technical issues during rollout,Medium,Medium,"Phased rollout, fallback procedures, dedicated IT support",Project Management
+Market Risk,Economic downturn leading to higher default rates than forecast,Low,High,"Conservative allocation limits, real-time monitoring, scenario planning",Risk Management
+Regulatory Risk,Changes in lending regulations affecting allocation strategy,Low,High,"Regulatory monitoring, flexible policy framework, compliance review",Compliance
+Operational Risk,Capacity constraints during high-demand periods,Medium,Medium,"Demand forecasting, capacity planning, automated processing",Operations
+Data Quality Risk,Inaccurate or incomplete data affecting model inputs,Low,Medium,"Data validation checks, anomaly detection, source verification",Data Engineering

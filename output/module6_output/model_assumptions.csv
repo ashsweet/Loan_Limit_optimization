@@ -1,0 +1,13 @@
+Category,Assumption,Value,Source,Sensitivity,Validation
+Financial,Annual Discount Rate,19%,Problem Statement,High - NPV is sensitive to discount rate changes,Anchored to problem statement requirement
+Financial,Monthly Discount Rate,1.459%,Derived: (1+0.19)^(1/12) - 1,High - Affects NPV calculation,Compound formula per best practices
+Financial,Profit per Limit Increase,$40,Business assumption,High - Direct impact on gross profit,Review with Finance team
+Financial,Loss Given Default,$120 (3x profit),Conservative estimate,High - Affects risk-adjusted returns,Based on industry benchmarks
+Operational,Monthly Processing Capacity,"16,000 increases",Module 3 demand analysis,Medium - Affects allocation volumes,Aligned with demand forecast
+Operational,Eligibility Threshold,60 days since last increase,Business rule,Low - Policy constraint,Per existing policy
+Risk,Max Portfolio Default Rate,50%,Risk appetite / regulatory,Medium - Constrains allocation,Approved by Risk Committee
+Risk,Risk Tier Default Rates,"15%, 30%, 45%, 60%",Module 2 Markov model,High - Core to optimization,Calibrated from historical data
+Allocation,Minimum Tier Allocation,5-10%,Fairness constraint,Low - Floor constraint,Ensures diversification
+Allocation,Maximum Tier Allocation,40-55%,Concentration limit,Medium - Caps tier exposure,Per risk policy
+Demand,Uptake Rate by Tier,"85%, 78%, 70%, 60%",Historical analysis,Medium - Affects realized volume,Based on customer behavior data
+Demand,Seasonal Demand Pattern,Q4 peak (+15%),Module 3 forecast,Low - Captured in monthly planning,Historical seasonal patterns

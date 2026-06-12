@@ -1,0 +1,62 @@
+[
+  {
+    "priority": "HIGH",
+    "category": "Strategy",
+    "title": "Implement Risk-Adjusted Allocation Policy",
+    "description": "Shift from equal allocation to optimized risk-adjusted allocation. This is projected to improve NPV by $172,364 (+3.2%) annually.",
+    "action_items": [
+      "Prioritize Low Risk tier with 40% of monthly capacity",
+      "Allocate 40% to Medium-Low Risk tier",
+      "Limit Medium-High and High Risk tiers to 10% each",
+      "Review allocation quarterly based on performance"
+    ]
+  },
+  {
+    "priority": "HIGH",
+    "category": "Operations",
+    "title": "Implement Dynamic Capacity Management",
+    "description": "Monthly demand varies from 13,200 to 17,250. Adjust operational capacity to match seasonal patterns.",
+    "action_items": [
+      "Scale up processing capacity during Q4 peak season",
+      "Maintain baseline capacity of 16,000 monthly increases",
+      "Build buffer capacity for demand spikes",
+      "Monitor real-time demand vs forecast variance"
+    ]
+  },
+  {
+    "priority": "MEDIUM",
+    "category": "Risk Management",
+    "title": "Enhance Risk Monitoring Framework",
+    "description": "With weighted monthly default rate of 4.05%, implement early warning indicators and portfolio stress testing.",
+    "action_items": [
+      "Track tier migration patterns monthly",
+      "Set alert thresholds for default rate increases",
+      "Conduct quarterly stress tests on portfolio",
+      "Review and update transition probabilities semi-annually"
+    ]
+  },
+  {
+    "priority": "MEDIUM",
+    "category": "Governance",
+    "title": "Establish Model Governance Framework",
+    "description": "Formalize model validation, monitoring, and update procedures to ensure continued accuracy and regulatory compliance.",
+    "action_items": [
+      "Document all model assumptions and limitations",
+      "Establish quarterly model performance review",
+      "Create backtesting protocol for optimization model",
+      "Define escalation procedures for model drift"
+    ]
+  },
+  {
+    "priority": "LOW",
+    "category": "Technology",
+    "title": "Automate Allocation Decisions",
+    "description": "Develop automated decision engine to implement optimal allocation in real-time based on current portfolio state and demand.",
+    "action_items": [
+      "Build API for real-time allocation recommendations",
+      "Integrate with loan origination system",
+      "Implement A/B testing framework for policy refinement",
+      "Create management dashboard for monitoring"
+    ]
+  }
+]
