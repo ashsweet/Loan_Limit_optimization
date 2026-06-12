@@ -1,0 +1,5 @@
+Metric,Baseline,Optimized,Improvement
+Expected NPV,"$5,385,990","$5,558,354","$172,364 (+3.2%)"
+Gross Profit,"$7,044,776","$7,044,776",-
+Expected Defaults,"7,047","5,863",-
+Default Rate,4.00%,3.33%,-

@@ -1,0 +1,26 @@
+{
+  "optimal_allocation": {
+    "Low Risk": 0.4,
+    "Medium-Low Risk": 0.4,
+    "Medium-High Risk": 0.1,
+    "High Risk": 0.1
+  },
+  "expected_npv": 5558354.368852648,
+  "weighted_default_rate": 0.39950248248077386,
+  "optimization_converged": true,
+  "iterations": 2,
+  "baseline_comparison": {
+    "baseline_npv": 5385990.216549149,
+    "optimized_npv": 5558354.368852647,
+    "npv_improvement": 172364.15230349824,
+    "improvement_pct": 3.200231440708659
+  },
+  "config": {
+    "profit_per_increase": 40.0,
+    "annual_discount_rate": 0.19,
+    "monthly_capacity": 16000,
+    "max_portfolio_default_rate": 0.4,
+    "min_tier_allocation": 0.1,
+    "max_tier_allocation": 0.4
+  }
+}
