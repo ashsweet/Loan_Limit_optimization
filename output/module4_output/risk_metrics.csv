@@ -1,0 +1,9 @@
+Metric,Value,Description
+Mean NPV,"$5,782,383",Expected portfolio value
+Std Dev,"$19,606",Volatility of outcomes
+VaR 90%,"$5,758,117",10% chance NPV below this
+VaR 95%,"$5,748,608",5% chance NPV below this
+VaR 99%,"$5,738,785",1% chance NPV below this
+ES 95%,"$5,739,871",Avg NPV in worst 5% scenarios
+Prob of Loss,0.0%,Chance of negative NPV
+Risk-Adjusted Return,294.92,Mean / Std Dev

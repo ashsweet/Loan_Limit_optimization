@@ -1,0 +1,15 @@
+{
+  "mean_portfolio_npv": 5782382.844000391,
+  "std_portfolio_npv": 19606.434463025784,
+  "p5_npv": 5748607.524054976,
+  "p50_npv": 5781337.608213039,
+  "p95_npv": 5816428.651147956,
+  "mean_defaults": 11546.31,
+  "default_rate": 0.38487699999999997,
+  "simulation_params": {
+    "n_simulations": 100,
+    "n_periods": 12,
+    "discount_rate": 0.19,
+    "profit_per_increase": 40
+  }
+}
